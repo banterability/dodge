@@ -1,6 +1,6 @@
 {
   "name": "dodge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Foursquare API client",
   "main": "lib/client/index.js",
   "scripts": {
