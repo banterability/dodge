@@ -12,13 +12,13 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 
 ### General Endpoints
 
-| Endpoint                 | Description (link to API documentation)                  | Supported?             |
-| ------------------------ | -------------------------------------------------------- | ---------------------- |
-| venues/categories        | [Venue Categories][venues/categories]                    | Yes :white_check_mark: |
-| venues/explore           | [Explore Recommended and Popular Venues][venues/explore] | No :x:                 |
-| venues/search            | [Search Venues][venues/search]                           | Yes :white_check_mark: |
-| venues/suggestcompletion | [Suggest Completion Venues][venues/suggestcompletion]    | No :x:                 |
-| venues/trending          | [Trending Venues][venues/trending]                       | No :x:                 |
+| Endpoint                   | Description (link to API documentation)                  | Supported?             |
+| -------------------------- | -------------------------------------------------------- | ---------------------- |
+| `venues/categories`        | [Venue Categories][venues/categories]                    | Yes :white_check_mark: |
+| `venues/explore`           | [Explore Recommended and Popular Venues][venues/explore] | No :x:                 |
+| `venues/search`            | [Search Venues][venues/search]                           | Yes :white_check_mark: |
+| `venues/suggestcompletion` | [Suggest Completion Venues][venues/suggestcompletion]    | No :x:                 |
+| `venues/trending`          | [Trending Venues][venues/trending]                       | No :x:                 |
 
 [venues/categories]: https://developer.foursquare.com/docs/venues/categories
 [venues/explore]: https://developer.foursquare.com/docs/venues/explore
@@ -28,18 +28,18 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 
 ### Venue-specific Endpoints
 
-| Endpoint                    | Description (link to API documentation)            | Supported?             |
-| --------------------------- | -------------------------------------------------- | ---------------------- |
-| venues/`<venue>`            | [Venue Details][venues/venue]                      | No :x:                 |
-| venues/`<venue>`/events     | [Venue Events][venues/venue/events]                | No :x:                 |
-| venues/`<venue>`/hours      | [Venue Hours][venues/venue/hours]                  | No :x:                 |
-| venues/`<venue>`/likes      | [Users who have liked a venue][venues/venue/likes] | No :x:                 |
-| venues/`<venue>`/links      | [Links For a Venue][venues/venue/links]            | No :x:                 |
-| venues/`<venue>`/listed     | [Lists][venues/venue/listed]                       | No :x:                 |
-| venues/`<venue>`/menu       | [Venue Menu][venues/venue/menu]                    | No :x:                 |
-| venues/`<venue>`/nextvenues | [Next Venues][venues/venue/nextvenues]             | No :x:                 |
-| venues/`<venue>`/photos     | [Photos from a Venue][venues/venue/photos]         | No :x:                 |
-| venues/`<venue>`/tips       | [Tips from a Venue][venues/venue/tips]             | No :x:                 |
+| Endpoint                     | Description (link to API documentation)            | Supported?             |
+| ---------------------------- | -------------------------------------------------- | ---------------------- |
+| `venues/<venue>`             | [Venue Details][venues/venue]                      | No :x:                 |
+| `venues/<venue>/events`      | [Venue Events][venues/venue/events]                | No :x:                 |
+| `venues/<venue>/hours`       | [Venue Hours][venues/venue/hours]                  | No :x:                 |
+| `venues/<venue>/likes`       | [Users who have liked a venue][venues/venue/likes] | No :x:                 |
+| `venues/<venue>/links`       | [Links For a Venue][venues/venue/links]            | No :x:                 |
+| `venues/<venue>/listed`      | [Lists][venues/venue/listed]                       | No :x:                 |
+| `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | No :x:                 |
+| `venues/<venue>/nextvenues`  | [Next Venues][venues/venue/nextvenues]             | No :x:                 |
+| `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | No :x:                 |
+| `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | No :x:                 |
 
 [venues/venue]: https://developer.foursquare.com/docs/venues/venues
 [venues/venue/events]: https://developer.foursquare.com/docs/venues/events
