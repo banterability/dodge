@@ -31,9 +31,9 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | Endpoint                     | Description (link to API documentation)            | Supported?             |
 | ---------------------------- | -------------------------------------------------- | ---------------------- |
 | `venues/<venue>`             | [Venue Details][venues/venue]                      | Yes :white_check_mark: |
-| `venues/<venue>/events`      | [Venue Events][venues/venue/events]                | No :x:                 |
-| `venues/<venue>/hours`       | [Venue Hours][venues/venue/hours]                  | No :x:                 |
-| `venues/<venue>/likes`       | [Users who have liked a venue][venues/venue/likes] | No :x:                 |
+| `venues/<venue>/events`      | [Venue Events][venues/venue/events]                | Yes :white_check_mark: |
+| `venues/<venue>/hours`       | [Venue Hours][venues/venue/hours]                  | Yes :white_check_mark: |
+| `venues/<venue>/likes`       | [Users who have liked a venue][venues/venue/likes] | Yes :white_check_mark: |
 | `venues/<venue>/links`       | [Links For a Venue][venues/venue/links]            | Yes :white_check_mark: |
 | `venues/<venue>/listed`      | [Lists][venues/venue/listed]                       | No :x:                 |
 | `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | No :x:                 |
