@@ -1,7 +1,7 @@
 {extend} = require 'underscore'
 request = require 'request'
 
-class FoursquareClient
+class Dodge
   constructor: (options) ->
     @baseUrl = 'https://api.foursquare.com/v2'
     @clientId = options.clientId
@@ -28,4 +28,4 @@ class FoursquareClient
       return callback new Error body.meta.errorDetail unless body.meta.code == 200
       callback err, body
 
-module.exports = FoursquareClient
+module.exports = Dodge
