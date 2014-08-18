@@ -8,6 +8,10 @@
   },
   "author": "Jeff Long",
   "license": "MIT",
+  "dependencies": {
+    "request": "^2.40.0",
+    "underscore": "^1.6.0"
+  },
   "devDependencies": {
     "coffee-script": "^1.7.1"
   }
