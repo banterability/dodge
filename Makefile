@@ -1,6 +1,16 @@
+SRC = $(shell find src -name "*.coffee" -type f | sort)
+LIB = $(SRC:src/%.coffee=lib/%.js)
 COFFEE=./node_modules/coffee-script/bin/coffee
 
-build:
-	$(COFFEE) -co lib src/
+usage:
+	@echo ''
+	@echo 'Task         : Description'
+	@echo '------------ : -----------'
+	@echo 'make build   : Recompile from Coffeescript'
+	@echo ''
 
-.PHONY: build
+build: $(LIB)
+
+lib/%.js: src/%.coffee
+	dirname "$@" | xargs mkdir -p
+	$(COFFEE) <"$<" >"$@"
