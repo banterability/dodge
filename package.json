@@ -14,5 +14,16 @@
   },
   "devDependencies": {
     "coffee-script": "^1.7.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/banterability/dodge.git"
+  },
+  "keywords": [
+    "foursquare"
+  ],
+  "bugs": {
+    "url": "https://github.com/banterability/dodge/issues"
+  },
+  "homepage": "https://github.com/banterability/dodge"
 }
