@@ -1,5 +1,4 @@
 # Dodge
----
 
 A simple [Foursquare API][foursquare-api] client for fetching venue data.
 
