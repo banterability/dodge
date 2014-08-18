@@ -1,8 +1,15 @@
-This client is targeting endpoints that are part of Foursquare's [Venue Platform][venue-platform] and do not require user authentication.
+# Dodge
+---
 
-[venue-platform]: https://developer.foursquare.com/overview/venues
+A simple [Foursquare API][foursquare-api] client for fetching venue data.
+
+[foursquare-api]: https://developer.foursquare.com/
 
 ## Endpoints
+
+Dodge is currently working on support for endpoints that are part of Foursquare's [Venue Platform][venue-platform] and do not require user authentication.
+
+[venue-platform]: https://developer.foursquare.com/overview/venues
 
 ### General Endpoints
 
