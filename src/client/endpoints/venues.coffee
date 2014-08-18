@@ -20,6 +20,11 @@ module.exports = (client) ->
         client.fetch "venues/#{venueId}", {}, (err, data) ->
           callback err, data?.response?.venue
 
+      nextvenues: (options = {}, callback) ->
+        venueId = getVenueId options
+        client.fetch "venues/#{venueId}/nextvenues", {}, (err, data) ->
+          callback err, data?.response?.nextVenues
+
       search: (options = {}, callback) ->
         throw new Error "Missing location parameter(s)" unless hasRequiredParamsForVenueSearch options
         client.fetch 'venues/search', options, (err, data) ->
