@@ -21,6 +21,14 @@ module.exports = (client) ->
         client.fetch 'venues/search', options, (err, data) ->
           callback err, data?.response?.venues
 
+      suggestcompletion: (options = {}, callback) ->
+        hasRequiredParameters = ->
+          options.query? && (options.ll? || options.near?)
+
+        throw new Error "Missing required parameters ('query', one of: ['ll', 'near'])" unless hasRequiredParameters()
+        client.fetch 'venues/suggestcompletion', options, (err, data) ->
+          callback err, data.response?.minivenues
+
       # Venue-specific endpoints
 
       detail: (options = {}, callback) ->

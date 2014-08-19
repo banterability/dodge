@@ -17,7 +17,7 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | `venues/categories`        | [Venue Categories][venues/categories]                    | Yes :white_check_mark: |
 | `venues/explore`           | [Explore Recommended and Popular Venues][venues/explore] | No :x:                 |
 | `venues/search`            | [Search Venues][venues/search]                           | Yes :white_check_mark: |
-| `venues/suggestcompletion` | [Suggest Completion Venues][venues/suggestcompletion]    | No :x:                 |
+| `venues/suggestcompletion` | [Suggest Completion Venues][venues/suggestcompletion]    | Yes :white_check_mark: |
 | `venues/trending`          | [Trending Venues][venues/trending]                       | No :x:                 |
 
 [venues/categories]: https://developer.foursquare.com/docs/venues/categories
