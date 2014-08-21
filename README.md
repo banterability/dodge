@@ -28,18 +28,20 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 
 ### Venue-specific Endpoints
 
-| Endpoint                     | Description (link to API documentation)            | Supported?             |
-| ---------------------------- | -------------------------------------------------- | ---------------------- |
-| `venues/<venue>`             | [Venue Details][venues/venue]                      | Yes :white_check_mark: |
-| `venues/<venue>/events`      | [Venue Events][venues/venue/events]                | Yes :white_check_mark: |
-| `venues/<venue>/hours`       | [Venue Hours][venues/venue/hours]                  | Yes :white_check_mark: |
-| `venues/<venue>/likes`       | [Users who have liked a venue][venues/venue/likes] | Yes :white_check_mark: |
-| `venues/<venue>/links`       | [Links For a Venue][venues/venue/links]            | Yes :white_check_mark: |
-| `venues/<venue>/listed`      | [Lists][venues/venue/listed]                       | No :x:                 |
-| `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | No :x:                 |
-| `venues/<venue>/nextvenues`  | [Next Venues][venues/venue/nextvenues]             | Yes :white_check_mark: |
-| `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | No :x:                 |
-| `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | No :x:                 |
+| Endpoint                     | Description (link to API documentation)            | Supported?                         |
+| ---------------------------- | -------------------------------------------------- | ---------------------------------- |
+| `venues/<venue>`             | [Venue Details][venues/venue]                      | Yes :white_check_mark:             |
+| `venues/<venue>/events`      | [Venue Events][venues/venue/events]                | Yes :white_check_mark:             |
+| `venues/<venue>/hours`       | [Venue Hours][venues/venue/hours]                  | Yes :white_check_mark:             |
+| `venues/<venue>/likes`       | [Users who have liked a venue][venues/venue/likes] | Yes :white_check_mark:             |
+| `venues/<venue>/links`       | [Links For a Venue][venues/venue/links]            | Yes :white_check_mark:             |
+| `venues/<venue>/listed`      | [Lists][venues/venue/listed]                       | Yes<sup>1</sup> :white_check_mark: |
+| `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | No :x:                             |
+| `venues/<venue>/nextvenues`  | [Next Venues][venues/venue/nextvenues]             | Yes :white_check_mark:             |
+| `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | No :x:                             |
+| `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | No :x:                             |
+
+<sup>1</sup>: Only supports the `others` group.
 
 [venues/venue]: https://developer.foursquare.com/docs/venues/venues
 [venues/venue/events]: https://developer.foursquare.com/docs/venues/events

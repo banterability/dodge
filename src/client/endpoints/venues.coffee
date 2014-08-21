@@ -61,6 +61,12 @@ module.exports = (client) ->
         client.fetch "venues/#{venueId}/links", {}, (err, data) ->
           callback err, data?.response?.links
 
+      listed: (options = {}, callback) ->
+        {venueId, options} = requireVenueId options
+        options.group = 'other' # Only valid group without an acting user
+        client.fetch "venues/#{venueId}/listed", options, (err, data) ->
+          callback err, data?.response?.lists
+
       nextvenues: (options = {}, callback) ->
         {venueId} = requireVenueId options
         client.fetch "venues/#{venueId}/nextvenues", {}, (err, data) ->
