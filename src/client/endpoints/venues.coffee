@@ -1,6 +1,11 @@
+{omit} = require 'underscore'
+
 requireVenueId = (options) ->
   throw new Error "Missing required venueId" unless options.venueId
-  options.venueId
+  {
+    venueId: options.venueId
+    options: omit options, 'venueId'
+  }
 
 module.exports = (client) ->
   return {
@@ -32,32 +37,32 @@ module.exports = (client) ->
       # Venue-specific endpoints
 
       detail: (options = {}, callback) ->
-        venueId = requireVenueId options
+        {venueId} = requireVenueId options
         client.fetch "venues/#{venueId}", {}, (err, data) ->
           callback err, data?.response?.venue
 
       events: (options = {}, callback) ->
-        venueId = requireVenueId options
+        {venueId} = requireVenueId options
         client.fetch "venues/#{venueId}/events", {}, (err, data) ->
           callback err, data?.response?.events
 
       hours: (options = {}, callback) ->
-        venueId = requireVenueId options
+        {venueId} = requireVenueId options
         client.fetch "venues/#{venueId}/hours", {}, (err, data) ->
           callback err, data?.response
 
       likes: (options = {}, callback) ->
-        venueId = requireVenueId options
+        {venueId} = requireVenueId options
         client.fetch "venues/#{venueId}/likes", {}, (err, data) ->
           callback err, data?.response?.likes
 
       links: (options = {}, callback) ->
-        venueId = requireVenueId options
+        {venueId} = requireVenueId options
         client.fetch "venues/#{venueId}/links", {}, (err, data) ->
           callback err, data?.response?.links
 
       nextvenues: (options = {}, callback) ->
-        venueId = requireVenueId options
+        {venueId} = requireVenueId options
         client.fetch "venues/#{venueId}/nextvenues", {}, (err, data) ->
           callback err, data?.response?.nextVenues
   }
