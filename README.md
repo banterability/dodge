@@ -39,7 +39,7 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | No :x:                             |
 | `venues/<venue>/nextvenues`  | [Next Venues][venues/venue/nextvenues]             | Yes :white_check_mark:             |
 | `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | No :x:                             |
-| `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | No :x:                             |
+| `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | Yes :white_check_mark:             |
 
 <sup>1</sup>: Only supports the `others` group.
 
