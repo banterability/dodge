@@ -1,3 +1,7 @@
+0.5.0
+-----
+* Support for venue menus.
+
 0.4.0
 -----
 * Support for venue lists & tips.
