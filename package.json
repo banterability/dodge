@@ -2,7 +2,7 @@
   "name": "dodge",
   "version": "0.4.0",
   "description": "Foursquare API client",
-  "main": "lib/client/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
