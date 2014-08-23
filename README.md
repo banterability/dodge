@@ -36,7 +36,7 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | `venues/<venue>/likes`       | [Users who have liked a venue][venues/venue/likes] | Yes :white_check_mark:             |
 | `venues/<venue>/links`       | [Links For a Venue][venues/venue/links]            | Yes :white_check_mark:             |
 | `venues/<venue>/listed`      | [Lists][venues/venue/listed]                       | Yes<sup>1</sup> :white_check_mark: |
-| `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | No :x:                             |
+| `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | Yes :white_check_mark:             |
 | `venues/<venue>/nextvenues`  | [Next Venues][venues/venue/nextvenues]             | Yes :white_check_mark:             |
 | `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | No :x:                             |
 | `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | Yes :white_check_mark:             |
