@@ -1,3 +1,7 @@
+0.5.1
+-----
+* First NPM release.
+
 0.5.0
 -----
 * Support for venue menus.
