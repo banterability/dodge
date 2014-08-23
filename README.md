@@ -4,6 +4,36 @@ A simple [Foursquare API][foursquare-api] client for fetching venue data.
 
 [foursquare-api]: https://developer.foursquare.com/
 
+## Installation
+
+```bash
+npm install dodge --save
+```
+
+## Usage
+
+```javascript
+var Dodge, client, apiOptions;
+
+Dodge = require('dodge');
+
+client = new Dodge({
+  clientId: 'four',
+  clientSecret: 'square'
+});
+
+/* varies by endpoint; refer to Foursquare documentation */
+apiOptions = {
+  categoryId: '4bf58dd8d48988d122941735',
+  intent: 'browse',
+  near: 'Chicago, IL'
+}
+
+client.venues.search(apiOptions, function(err, venues){
+  /* do something */
+});
+```
+
 ## Endpoints
 
 Dodge is currently working on support for endpoints that are part of Foursquare's [Venue Platform][venue-platform] and do not require user authentication.
