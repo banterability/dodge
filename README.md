@@ -45,10 +45,10 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | Endpoint                   | Description (link to API documentation)                  | Supported?             |
 | -------------------------- | -------------------------------------------------------- | ---------------------- |
 | `venues/categories`        | [Venue Categories][venues/categories]                    | Yes :white_check_mark: |
-| `venues/explore`           | [Explore Recommended and Popular Venues][venues/explore] | No :x:                 |
+| `venues/explore`           | [Explore Recommended and Popular Venues][venues/explore] | Not Yet :x:            |
 | `venues/search`            | [Search Venues][venues/search]                           | Yes :white_check_mark: |
 | `venues/suggestcompletion` | [Suggest Completion Venues][venues/suggestcompletion]    | Yes :white_check_mark: |
-| `venues/trending`          | [Trending Venues][venues/trending]                       | No :x:                 |
+| `venues/trending`          | [Trending Venues][venues/trending]                       | Not Yet :x:            |
 
 [venues/categories]: https://developer.foursquare.com/docs/venues/categories
 [venues/explore]: https://developer.foursquare.com/docs/venues/explore
@@ -68,7 +68,7 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | `venues/<venue>/listed`      | [Lists][venues/venue/listed]                       | Yes<sup>1</sup> :white_check_mark: |
 | `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | Yes :white_check_mark:             |
 | `venues/<venue>/nextvenues`  | [Next Venues][venues/venue/nextvenues]             | Yes :white_check_mark:             |
-| `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | No :x:                             |
+| `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | Not Yet :x:                        |
 | `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | Yes :white_check_mark:             |
 
 <sup>1</sup>: Only supports the `others` group.
