@@ -1,3 +1,7 @@
+0.6.0
+-----
+* Support for venue photos.
+
 0.5.1
 -----
 * First NPM release.
