@@ -20,7 +20,8 @@
     "url": "git://github.com/banterability/dodge.git"
   },
   "keywords": [
-    "foursquare"
+    "foursquare",
+    "venues"
   ],
   "bugs": {
     "url": "https://github.com/banterability/dodge/issues"
