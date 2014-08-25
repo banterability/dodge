@@ -77,6 +77,11 @@ module.exports = (client) ->
         client.fetch "venues/#{venueId}/nextvenues", {}, (err, data) ->
           callback err, data?.response?.nextVenues
 
+      photos: (options = {}, callback) ->
+        {venueId, options} = requireVenueId options
+        client.fetch "venues/#{venueId}/photos", options, (err, data) ->
+          callback err, data?.response?.photos
+
       tips: (options = {}, callback) ->
         {venueId, options} = requireVenueId options
         client.fetch "venues/#{venueId}/tips", options, (err, data) ->

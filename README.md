@@ -68,10 +68,11 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | `venues/<venue>/listed`      | [Lists][venues/venue/listed]                       | Yes<sup>1</sup> :white_check_mark: |
 | `venues/<venue>/menu`        | [Venue Menu][venues/venue/menu]                    | Yes :white_check_mark:             |
 | `venues/<venue>/nextvenues`  | [Next Venues][venues/venue/nextvenues]             | Yes :white_check_mark:             |
-| `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | Not Yet :x:                        |
+| `venues/<venue>/photos`      | [Photos from a Venue][venues/venue/photos]         | Yes<sup>2</sup> :white_check_mark: |
 | `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | Yes :white_check_mark:             |
 
 <sup>1</sup>: Does not accept a `group` parameter. Only `others` is supported without an acting user, so that parameter is passed by the library.
+<sup>2</sup>: Supported `group` parameters: none or `venue` (`checkin` require an acting user, which is not supported.)
 
 [venues/venue]: https://developer.foursquare.com/docs/venues/venues
 [venues/venue/events]: https://developer.foursquare.com/docs/venues/events
