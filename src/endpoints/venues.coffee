@@ -78,7 +78,11 @@ module.exports = (client) ->
           callback err, data?.response?.nextVenues
 
       photos: (options = {}, callback) ->
+        hasValidParameters = ->
+          !options.group? || options.group == 'venue'
+
         {venueId, options} = requireVenueId options
+        throw new Error "Unsupported group parameter" unless hasValidParameters()
         client.fetch "venues/#{venueId}/photos", options, (err, data) ->
           callback err, data?.response?.photos
 
