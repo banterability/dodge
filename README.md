@@ -72,6 +72,7 @@ Dodge is currently working on support for endpoints that are part of Foursquare'
 | `venues/<venue>/tips`        | [Tips from a Venue][venues/venue/tips]             | Yes :white_check_mark:             |
 
 <sup>1</sup>: Does not accept a `group` parameter. Only `others` is supported without an acting user, so that parameter is passed by the library.
+
 <sup>2</sup>: Supported `group` parameters: none or `venue` (`checkin` require an acting user, which is not supported.)
 
 [venues/venue]: https://developer.foursquare.com/docs/venues/venues
