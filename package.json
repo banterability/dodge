@@ -1,6 +1,6 @@
 {
   "name": "dodge",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "An API client for Foursquare's Venues Service",
   "main": "lib/index.js",
   "scripts": {

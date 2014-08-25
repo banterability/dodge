@@ -1,3 +1,7 @@
+0.6.2
+-----
+* Documentation fixes
+
 0.6.1
 -----
 * Documentation fixes
