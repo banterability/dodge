@@ -1,3 +1,7 @@
+0.6.1
+-----
+* Documentation fixes
+
 0.6.0
 -----
 * Support for venue photos.
