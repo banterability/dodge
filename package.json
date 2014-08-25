@@ -1,7 +1,7 @@
 {
   "name": "dodge",
   "version": "0.6.0",
-  "description": "Foursquare API client for venue data",
+  "description": "An API client for Foursquare's Venue Platform",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
